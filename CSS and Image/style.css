@@ -1,0 +1,393 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+	width: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+	font-weight: bold;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover {
+	border: 2px solid #db4343;
+	transition: 1s;
+	transform: translateY(-42px)
+}
+
+.produtos li:active {
+	border-color: #088C19;	
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+	text-align: center;
+	background: url("../CSS and Image/Imagens/bg.jpg");
+	padding: 40px 0;
+	color: #000;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/* form visual */
+
+.main-contato {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: rgb(0, 119, 255);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+/* CSS - Página Principal */
+
+.banner {
+	width:100%;
+}
+
+/* Conteúdo Principal */
+.principal {
+	background: #ffffff;
+
+}
+
+.conteudo-principal {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2rem;
+	margin: 2rem;
+	clear: left;
+	font-weight: bold;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.itens:before {
+	content: "🟊";
+
+}
+
+.principal p {
+	padding: 0 0 20px;
+
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style:italic;
+}
+
+img.utensilios {
+	width:150px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+
+/* Section Mapa */
+.mapa {
+	padding: 3rem 0;
+	background: linear-gradient(#ffffff, #888888)
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.mapa-conteudo p{
+	margin: 2rem 0 2rem;
+	text-align: center;
+}
+
+/*  Sections Beneficios*/
+
+.beneficios {
+	padding: 3rem 0;
+	background: #888888;
+}
+
+.imagem-beneficios {
+	width: 60%;
+	display: inline-block;
+	box-shadow: 12px 12px 5px;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+}
+
+.itens {
+	line-height: 1.9;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.video {
+	width: 560px;
+	margin: 3rem auto 0;
+	opacity: 0.7;
+	
+}
+
+.video:hover {
+	opacity: 1;
+	transform: 500ms;
+}
+
+/* Visual Mobile - celular - Principal*/
+
+@media screen and (max-width: 480px) {
+
+
+	.conteudo-principal, .mapa-conteudo, .conteudo-beneficios, .video, .caixa, .produtos, header, footer {
+		width: auto;
+		padding: 0 9px;
+	}
+
+	.titulo-principal {
+		margin-top: 0 auto;
+	}
+
+	.caixa {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		padding: 20px 0;
+		margin: 0 auto;
+	}
+
+	nav a {
+		font-size: 17px;
+	}
+
+	.lista-beneficios {
+		width: 100%;
+		text-align: center;
+	}
+
+	.imagem-beneficios {
+		width: 100%;
+	}
+}
+/* Visual Mobile - Tablet - Principal */
+
+
+@media screen and (max-width: 900px){
+	.conteudo-principal, .mapa-conteudo, .conteudo-beneficios, .video, .caixa, .main-contato {
+		width: auto;
+		padding: 0 9px;
+	}
+
+	nav ul {
+		padding-right: 20px;
+	}
+	
+	.mapa-conteudo {
+		padding: 0 18px;
+	}
+
+	.conteudo-beneficios ul {
+		padding: 0 0 15px;
+	}
+}
+
+/* Visual Mobile - celular - Principal*/
+
+@media screen and (max-width: 480px) {
+	.produtos li{
+		display: block;
+		width: 90%;
+		margin: auto 2rem
+		
+	}
+
+	.produtos li:hover {
+		transform: translateY(6px)
+	}
+	
+}
+
+/* Visual Mobile - Tablet - Produtos */
+
+@media screen and (max-width: 900px) {
+
+	.produtos {
+		width: 100%;
+		padding: 50px 0px;
+
+	}
+
+	.produtos li {
+		width: 100%;
+		margin: 20px 0;
+	
+	}
+	
+}
+
+/* Visual Mobile - Tablet - contato*/
+
+@media screen and (max-width: 900px) {
+	.main-contato {
+		padding: 0 10px;
+	}
+	
+	.input-padrao {
+		width: 80%;
+	} 
+
+	legend {
+		padding: 9px 0;
+	}
+
+	input.enviar {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.tabela-horarios table {
+		margin: 0 auto 20px;
+	}
+}
+
