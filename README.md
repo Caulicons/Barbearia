@@ -1,9 +1,11 @@
 # Barbearia Alura
 
-## Pensando em contar o cabelo? 
+![project preview](./preview.gif)
 
-Esse projeto foi feita no decorrer dos cursos de HTML5 e CSS3 (parte 1, parte2 , parte 3) do professor [Pedro Marins](https://github.com/pedromarins) ,
+## Pensando em contar o cabelo? 🧔🏻
 
-Esse curso foi ótimo para revisar o html e css básico e aprender algumas tags novos como a iframe para colocar os mapas e a de vídeo. Também foi bom para revisar o básico de formulários.
+Esse projeto foi feita no decorrer dos cursos de HTML5 e CSS3 (parte 1, parte2 , parte 3) do professor Pedro Marins.
 
-Caso queira da uma olhada rápida na página só clicar [aqui](https://barbearia-mu.vercel.app/).
+Esse curso foi ótimo para revisar o HTML e CSS básico e aprender algumas tags novas como a iframe para colocar os mapas e a de vídeo para adicionar alguns vídeos do youtube por exemplo. 💇🏽‍♂️
+
+Caso queiram da uma olhada no site, só clicar aqui: [aqui](https://barbearia-mu.vercel.app/)
